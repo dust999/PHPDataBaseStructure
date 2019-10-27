@@ -7,8 +7,6 @@ You crate in PhpMyAdmin your database. And use this script to create simple API 
 
 Example:
 <code>
-<?php
-
 //// TABLE: comments AUTO GENERATED API
 
 	function InsertComments( $user_id, $comment_text ){
@@ -59,5 +57,4 @@ Example:
 
 		SimpleQuery($table, $sql);
 }
-?>
 </code>
