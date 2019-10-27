@@ -3,10 +3,10 @@ Simple script that create simple api for CREATE, UPDATE, SELECT and DELETE data 
 
 Script compatible with mysql database but you can easily convert to any other database
 
-You crate in PhpMyAdmin your database. And use this script to create simple api for it
+You crate in PhpMyAdmin your database. And use this script to create simple API for it
 
 Example:
-
+<code>
 <?php
 
 //// TABLE: comments AUTO GENERATED API
@@ -60,3 +60,4 @@ Example:
 		SimpleQuery($table, $sql);
 }
 ?>
+</code>
