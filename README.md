@@ -65,3 +65,5 @@ Generated file example for table `comments`:
 		SimpleQuery($table, $sql);
 }
 </code>
+
+If you have any idea or suggestion please let me know.
