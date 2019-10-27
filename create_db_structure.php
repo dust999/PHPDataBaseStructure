@@ -59,7 +59,7 @@
         $out .= "\t\t".'$table = "'.$table.'";'."\n\n";
         $out .= "\t\t".'$sql = "SELECT ".$columns." FROM ".$table;'."\n\n";
         $out .= "\t\t".'if ( strlen($conditions) > 0 ) $sql .= " ".$conditions;'."\n\n";
-        $out .= "\t\t".'return SimpleRequest($table, $sql);'."\n";
+        $out .= "\t\t".'return SimpleRequest($sql);'."\n";
         $out .= "\t".'}'."\n";
 
         $file .= $out;
