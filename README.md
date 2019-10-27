@@ -12,6 +12,7 @@ You create in PhpMyAdmin your database. And use this script to create simple API
 Script generate file for each table with 4 functions inside. You can easyly change it to produce just one file
 
 Generated file example for table `comments`:
+
 <code>
 //// TABLE: comments AUTO GENERATED API
 
