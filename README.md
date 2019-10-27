@@ -1,6 +1,6 @@
 # PHP DataBase Structure
 
-Simple script that create simple api for CREATE, UPDATE, SELECT and DELETE data from the database
+Simple script that create simple API for CREATE, UPDATE, SELECT and DELETE data from the database
 
 Just two files:
 - mysql_connect.php
