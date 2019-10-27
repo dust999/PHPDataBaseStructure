@@ -1,15 +1,15 @@
 # PHP DataBase Structure
 
-Simple PHP script that create simple API for CREATE, UPDATE, SELECT and DELETE data from the database
+Simple PHP script that creates simple API for CREATE, UPDATE, SELECT and DELETE data from the database
 
 Just two files:
 - mysql_connect.php
 - create_db_structure.php
 
-Script compatible with mysql database but you can easily convert to any other database
+Script compatible with MySQL database but you can easily convert to any other database.
 
 You create in PhpMyAdmin your database. And use this script to create simple API for it.
-Script generate file for each table with 4 functions inside. You can easyly change it to produce just one file
+The script will generate a file for each table with 4 functions inside. You can easily change it to produce just one file
 
 Generated file example for table `comments`:
 
